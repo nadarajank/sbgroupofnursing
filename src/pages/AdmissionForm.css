@@ -1,0 +1,28 @@
+.admission-form-page {
+  width: min(92%, 980px);
+  margin: 64px auto;
+  padding: 18px;
+  border: 1px solid rgba(15, 159, 154, 0.18);
+  border-radius: 8px;
+  background: #ffffff;
+  box-shadow: var(--care-shadow);
+}
+
+.admission-form-page iframe {
+  display: block;
+  width: 100%;
+  min-height: 1180px;
+  border: 0;
+}
+
+@media (max-width: 768px) {
+  .admission-form-page {
+    width: 94%;
+    margin: 40px auto;
+    padding: 8px;
+  }
+
+  .admission-form-page iframe {
+    min-height: 1320px;
+  }
+}

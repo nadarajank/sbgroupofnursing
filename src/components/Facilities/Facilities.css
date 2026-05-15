@@ -1,0 +1,65 @@
+/* Facilities Section Styles */
+.facilities {
+  width: min(88%, 1180px);
+  margin: auto;
+  text-align: center;
+  padding-top: 84px;
+}
+
+.facilities h1 {
+  font-size: 2rem;
+  color: var(--care-navy);
+}
+
+.facilities-col {
+  flex: 1 1 0;
+  border-radius: 8px;
+  margin-bottom: 5%;
+  text-align: left;
+  transition: transform 0.35s ease;
+}
+
+.facilities-col img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 12px 32px rgba(6, 24, 38, 0.12);
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+.facilities p,
+.facilities-col p {
+  padding: 0;
+  font-size: 1.1rem;
+}
+
+.facilities-col h3 {
+  margin-top: 16px;
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+  text-align: left;
+  color: var(--care-navy);
+}
+
+.facilities-col:hover {
+  transform: translateY(-8px);
+}
+
+.facilities-col:hover img {
+  box-shadow: var(--care-shadow);
+  transform: scale(1.025);
+}
+
+@media (max-width: 768px) {
+  .facilities {
+    width: 90%;
+    padding-top: 64px;
+  }
+
+  .facilities h1 {
+    font-size: 1.9rem;
+  }
+
+  .facilities-col {
+    margin-bottom: 28px;
+  }
+}

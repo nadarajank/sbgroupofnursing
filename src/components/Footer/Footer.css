@@ -1,0 +1,47 @@
+/* Footer section styles */
+.footer {
+  width: 100%;
+  text-align: center;
+  padding: 42px 8%;
+  background: linear-gradient(180deg, #ffffff, #edfdfa);
+}
+
+.footer h4 {
+  margin-bottom: 25px;
+  margin-top: 20px;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--care-navy);
+}
+
+.footer p {
+  max-width: 900px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: var(--care-muted);
+}
+
+.footer .icons .fab {
+  color: var(--care-teal);
+  margin: 0 13px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  padding: 18px 0;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.footer .icons .fab:hover {
+  color: var(--care-blue);
+  transform: translateY(-4px) scale(1.12);
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 34px 6%;
+  }
+
+  .footer p {
+    font-size: 0.98rem;
+  }
+}

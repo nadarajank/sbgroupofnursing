@@ -1,0 +1,44 @@
+.about-us {
+  width: 80%;
+  margin: auto;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+.about-col {
+  flex-basis: 48%;
+  padding: 30px 2px;
+}
+
+.about-col img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: var(--care-shadow);
+  transition: transform 0.35s ease;
+}
+
+.about-col h1 {
+  padding-top: 0;
+  font-size: 2rem;
+  color: var(--care-navy);
+}
+
+.about-col p {
+  padding: 15px 0 25px;
+  font-size: 1.2rem;
+  color: var(--care-muted);
+}
+
+.red-btn {
+  border: 1px solid var(--care-teal);
+  background: transparent;
+  color: var(--care-teal);
+}
+
+.red-btn:hover {
+  color: #fff;
+}
+
+.about-col img:hover {
+  transform: translateY(-6px) scale(1.01);
+}

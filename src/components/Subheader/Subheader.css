@@ -1,0 +1,38 @@
+.sub-header {
+  height: 50vh;
+  width: 100%;
+  background:
+    radial-gradient(circle at 80% 22%, rgba(125, 244, 232, 0.26), transparent 26%),
+    linear-gradient(135deg, rgba(6, 24, 38, 0.94), rgba(17, 75, 95, 0.88));
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+  overflow: hidden;
+  position: relative;
+}
+
+.sub-header::after {
+  content: "+";
+  position: absolute;
+  right: 12%;
+  bottom: 12%;
+  color: rgba(255, 255, 255, 0.16);
+  font-size: 5rem;
+  font-weight: 700;
+  animation: careFloat 7s ease-in-out infinite;
+}
+
+.sub-header h1 {
+  margin-top: 50px;
+  font-size: 2rem;
+  position: relative;
+  z-index: 1;
+  animation: sectionReveal 0.75s ease both;
+}
+
+@media (max-width: 768px) {
+  .sub-header h1 {
+    font-size: 1rem;
+  }
+}

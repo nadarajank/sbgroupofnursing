@@ -1,0 +1,58 @@
+.contact-us {
+  width: 80%;
+  margin: auto;
+}
+
+.contact-col {
+  flex-basis: 48%;
+  margin-bottom: 30px;
+}
+.contact-col div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.contact-col div .icon {
+  font-size: 28px;
+  color: var(--care-teal);
+  margin: 10px;
+  margin-right: 30px;
+  animation: carePulse 2.4s ease-in-out infinite;
+}
+
+.contact-col div p {
+  padding: 0;
+}
+
+.contact-col div h5 {
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: var(--care-navy);
+  font-weight: 400;
+}
+
+.contact-col input,
+.contact-col select,
+.contact-col textarea {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 17px;
+  outline: none;
+  border: 1px solid rgba(15, 159, 154, 0.22);
+  border-radius: 8px;
+  background: #fbfffe;
+  transition: box-shadow 0.3s ease, border-color 0.3s ease, transform 0.3s ease;
+}
+
+.contact-col input:focus,
+.contact-col select:focus,
+.contact-col textarea:focus {
+  border-color: var(--care-teal);
+  box-shadow: 0 0 0 3px rgba(15, 159, 154, 0.16);
+  transform: translateY(-2px);
+}
+
+.contact-col select {
+  color: var(--care-text);
+}
