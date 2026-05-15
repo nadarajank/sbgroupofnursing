@@ -10,7 +10,7 @@ const Courses = () => {
         Study approved nursing and degree courses with practical training,
         academic guidance, and campus support.
       </p>
-      <div className="row">
+      <div className="course-grid">
         <div className="course-col">
           <h3>B.Sc. Nursing</h3>
           <p>

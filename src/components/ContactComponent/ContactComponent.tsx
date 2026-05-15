@@ -21,15 +21,27 @@ const ContactComponent = () => {
             <div>
               <FontAwesomeIcon icon={faPhone} className="icon" />
               <span>
-                <h5>+91 6262172262</h5>
-                <p>Monday to Saturday, 10AM to 6PM</p>
+                <h4>For Malayalam</h4>
+                <h5>
+                  <a href="tel:+917012417063">7012417063</a>
+                </h5>
+              </span>
+            </div>
+
+            <div>
+              <FontAwesomeIcon icon={faPhone} className="icon" />
+              <span>
+                <h4>For Tamil & Hindi</h4>
+                <h5>
+                  <a href="tel:+916381065743">6381065743</a>
+                </h5>
               </span>
             </div>
 
             <div>
               <FontAwesomeIcon icon={faEnvelope} className="icon" />
               <span>
-                <h5>info@sbgroup.edu.in</h5>
+                <h5>Srilakshmisafaniya@gmail.com</h5>
                 <p>Email us Your query</p>
               </span>
             </div>

@@ -20,20 +20,20 @@
   padding: 10px;
 }
 
-.row {
-  margin-top: 5%;
-  display: flex;
+.course-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 24px;
-  justify-content: space-between;
+  align-items: stretch;
+  margin-top: 44px;
 }
 
 .course-col {
-  flex: 1 1 0;
   background: linear-gradient(180deg, #ffffff, var(--care-mint));
   border: 1px solid rgba(15, 159, 154, 0.14);
   border-radius: 8px;
-  margin-bottom: 5%;
-  padding: 20px 12px;
+  min-width: 0;
+  padding: 24px 18px;
   position: relative;
   overflow: hidden;
   transition: transform 0.35s ease, box-shadow 0.35s ease, border-color 0.35s ease;
@@ -57,6 +57,10 @@
   color: var(--care-navy);
 }
 
+.course-col p {
+  overflow-wrap: anywhere;
+}
+
 .course-col:hover {
   border-color: rgba(15, 159, 154, 0.45);
   box-shadow: var(--care-shadow);
@@ -67,7 +71,7 @@
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 18px;
-  margin: 10px 0 60px;
+  margin: 56px 0 60px;
 }
 
 .course-gallery img {
@@ -95,9 +99,14 @@
     font-size: 2rem;
   }
 
-  .row {
-    flex-direction: column;
+  .course-grid {
+    grid-template-columns: 1fr;
     gap: 16px;
+    margin-top: 28px;
+  }
+
+  .course-col {
+    padding: 22px 16px;
   }
 
   .course-gallery {
@@ -107,6 +116,10 @@
 }
 
 @media (max-width: 480px) {
+  .course {
+    width: min(92%, 360px);
+  }
+
   .course-gallery {
     grid-template-columns: 1fr;
   }
