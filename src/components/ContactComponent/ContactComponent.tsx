@@ -41,7 +41,7 @@ const ContactComponent = () => {
             <div>
               <FontAwesomeIcon icon={faEnvelope} className="icon" />
               <span>
-                <h5>Srilakshmisafaniya@gmail.com</h5>
+                <h5>sbgroupofinstitutions336@gmail.com</h5>
                 <p>Email us Your query</p>
               </span>
             </div>

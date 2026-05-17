@@ -1,5 +1,5 @@
 export const admissionFormUrl =
-  "https://docs.google.com/forms/d/e/1FAIpQLSf14Uz-X0gTkQypqMcZW_xB9KxOO6XG-Ktlzbu_17O4AkxK0w/viewform?usp=publish-editor";
+  "https://docs.google.com/forms/d/e/1FAIpQLSfhXzzI9ISqE6L0gnoAvqJcDYUyYSeBhNvkcYa_fA4EOwx_5A/viewform?usp=publish-editor";
 
 export const admissionFormEmbedUrl = admissionFormUrl.replace(
   "/viewform?usp=publish-editor",
